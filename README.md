@@ -1,6 +1,6 @@
-# Customer Churn Prediction using Machine Learning
+### Customer Churn Prediction using Machine Learning
 
-## Project Overview
+#### Project Overview
 
 Customer churn prediction is one of the most important applications of machine learning in customer relationship management. Identifying customers who are likely to discontinue a service enables organizations to implement targeted retention strategies, improve customer satisfaction, and reduce revenue loss.
 
@@ -8,7 +8,7 @@ This project develops an end-to-end supervised machine learning pipeline using t
 
 ---
 
-## Business Problem
+#### Business Problem
 
 Customer retention is significantly more cost-effective than customer acquisition. Organizations need reliable methods to identify customers who are at risk of leaving so that proactive retention strategies can be implemented.
 
@@ -16,7 +16,7 @@ The objective of this project is to build a machine learning classification mode
 
 ---
 
-## Objectives
+#### Objectives
 
 * Perform comprehensive data exploration and preprocessing.
 * Conduct exploratory data analysis (EDA) to understand customer behavior.
@@ -29,7 +29,7 @@ The objective of this project is to build a machine learning classification mode
 
 ---
 
-## Dataset
+#### Dataset
 
 **Dataset:** IBM Telco Customer Churn Dataset
 
@@ -43,7 +43,7 @@ The dataset contains customer demographic information, subscribed services, bill
 
 ---
 
-## Technologies Used
+#### Technologies Used
 
 * Python
 * Pandas
@@ -57,7 +57,7 @@ The dataset contains customer demographic information, subscribed services, bill
 
 ---
 
-## Project Workflow
+#### Project Workflow
 
 1. Import Libraries
 2. Load the Dataset
@@ -78,7 +78,7 @@ The dataset contains customer demographic information, subscribed services, bill
 
 ---
 
-## Project Structure
+#### Project Structure
 
 ```text
 Customer_Churn_Prediction/
@@ -118,33 +118,33 @@ Customer_Churn_Prediction/
 
 ---
 
-# Sample Visualizations
+### Sample Visualizations
 
-## Churn Distribution
+#### Churn Distribution
 
 ![Churn Distribution](images/churn_distribution.png)
 
 ---
 
-## Contract Type vs Customer Churn
+#### Contract Type vs Customer Churn
 
 ![Contract vs Churn](images/contract_vs_churn.png)
 
 ---
 
-## Monthly Charges vs Customer Churn
+#### Monthly Charges vs Customer Churn
 
 ![Monthly Charges vs Churn](images/monthly_charges_vs_churn.png)
 
 ---
 
-## ROC Curve Comparison
+#### ROC Curve Comparison
 
 ![ROC Curve Comparison](images/roc_curve_comparison.png)
 
 ---
 
-## Model Performance Comparison
+#### Model Performance Comparison
 
 ![Model Accuracy Comparison](images/model_accuracy_comparison.png)
 
