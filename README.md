@@ -122,7 +122,7 @@ Customer_Churn_Prediction/
 
 #### Churn Distribution
 
-![Churn Distribution](churn_distribution.png)
+![Churn Distribution](images/churn_distribution.png)
 
 ---
 
