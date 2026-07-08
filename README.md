@@ -1,6 +1,6 @@
-# Customer Churn Prediction using Machine Learning
+### Customer Churn Prediction using Machine Learning
 
-## Project Overview
+#### Project Overview
 
 Customer churn prediction is one of the most important applications of machine learning in customer relationship management. Identifying customers who are likely to discontinue a service enables organizations to implement targeted retention strategies, improve customer satisfaction, and reduce revenue loss.
 
@@ -8,7 +8,7 @@ This project develops an end-to-end supervised machine learning pipeline using t
 
 ---
 
-## Business Problem
+#### Business Problem
 
 Customer acquisition is often more expensive than customer retention. Organizations need the ability to identify customers who are at risk of leaving so that proactive retention strategies can be implemented.
 
@@ -16,7 +16,7 @@ The objective of this project is to build a machine learning model capable of pr
 
 ---
 
-## Objectives
+#### Objectives
 
 * Perform comprehensive data exploration and preprocessing.
 * Analyze customer behavior using exploratory data analysis (EDA).
@@ -29,7 +29,7 @@ The objective of this project is to build a machine learning model capable of pr
 
 ---
 
-## Dataset
+#### Dataset
 
 **Dataset:** IBM Telco Customer Churn Dataset
 
@@ -43,7 +43,7 @@ The dataset contains customer demographic information, subscribed services, bill
 
 ---
 
-## Technologies Used
+#### Technologies Used
 
 * Python
 * Pandas
@@ -57,7 +57,7 @@ The dataset contains customer demographic information, subscribed services, bill
 
 ---
 
-## Project Workflow
+#### Project Workflow
 
 1. Import Libraries
 2. Load the Dataset
@@ -78,7 +78,7 @@ The dataset contains customer demographic information, subscribed services, bill
 
 ---
 
-## Machine Learning Models Evaluated
+#### Machine Learning Models Evaluated
 
 * Logistic Regression
 * Decision Tree Classifier
@@ -90,7 +90,7 @@ The dataset contains customer demographic information, subscribed services, bill
 
 ---
 
-## Model Performance Summary
+#### Model Performance Summary
 
 | Model                |   Accuracy |  Precision |     Recall |   F1-Score |
 | -------------------- | ---------: | ---------: | ---------: | ---------: |
@@ -107,7 +107,7 @@ Although hyperparameter tuning was performed using GridSearchCV, the baseline Lo
 
 ---
 
-## Key Business Insights
+#### Key Business Insights
 
 * Customers with Fiber Optic Internet Service showed a higher likelihood of churn.
 * Electronic Check payment method was associated with increased churn.
@@ -119,7 +119,7 @@ These findings can support customer retention initiatives by helping organizatio
 
 ---
 
-## Project Structure
+#### Project Structure
 
 ```text
 Customer_Churn_Prediction/
@@ -147,7 +147,7 @@ Customer_Churn_Prediction/
 
 ---
 
-## Installation
+#### Installation
 
 Clone the repository:
 
@@ -171,7 +171,7 @@ Open the notebook and execute all cells sequentially.
 
 ---
 
-## Future Enhancements
+#### Future Enhancements
 
 * Apply advanced feature engineering techniques.
 * Investigate class imbalance methods such as SMOTE.
@@ -182,7 +182,7 @@ Open the notebook and execute all cells sequentially.
 
 ---
 
-## Author
+#### Author
 
 **Pratap N**
 
