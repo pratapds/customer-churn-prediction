@@ -149,3 +149,112 @@ Customer_Churn_Prediction/
 ![Model Accuracy Comparison](images/model_accuracy_comparison.png)
 
 ---
+---
+
+### Machine Learning Models Evaluated
+
+The following supervised machine learning algorithms were implemented and evaluated:
+
+* Logistic Regression
+* Decision Tree Classifier
+* Random Forest Classifier
+* K-Nearest Neighbors (KNN)
+* Support Vector Machine (SVM)
+* Gaussian Naive Bayes
+* XGBoost Classifier
+
+---
+
+### Model Performance Summary
+
+| Model                     |   Accuracy |  Precision |     Recall |   F1-Score |
+| :------------------------ | ---------: | ---------: | ---------: | ---------: |
+| Logistic Regression       | **80.38%** | **64.76%** | **57.49%** | **60.91%** |
+| Random Forest             |     78.96% |     62.58% |     51.87% |     56.73% |
+| XGBoost                   |     77.83% |     58.91% |     54.81% |     56.79% |
+| K-Nearest Neighbors (KNN) |     75.41% |     53.74% |     53.74% |     53.74% |
+| Decision Tree             |     71.86% |     47.01% |     46.26% |     46.63% |
+| Gaussian Naive Bayes      |     64.46% |     41.84% | **86.36%** |     56.37% |
+
+The baseline **Logistic Regression** model achieved the best overall balance of Accuracy, Precision, Recall, and F1-Score. Although hyperparameter tuning was performed using GridSearchCV, the tuned model did not outperform the baseline model on the test dataset. Therefore, the baseline Logistic Regression model was selected as the final model.
+
+---
+
+### Key Business Insights
+
+* Customers with **month-to-month contracts** were significantly more likely to churn than customers with long-term contracts.
+* Customers using **Fiber Optic Internet Service** showed a higher likelihood of churn.
+* **Electronic Check** was the payment method most strongly associated with customer churn.
+* Customers with **longer tenure** demonstrated much higher retention rates.
+* Customers subscribed to **Online Security** and **Tech Support** services were less likely to churn.
+* The trained model can help organizations identify high-risk customers and support proactive customer retention strategies.
+
+---
+
+### How to Run the Project
+
+#### 1. Clone the Repository
+
+```bash
+git clone https://github.com/pratapds/customer-churn-prediction.git
+```
+
+#### 2. Navigate to the Project Directory
+
+```bash
+cd customer-churn-prediction
+```
+
+#### 3. Install the Required Libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+#### 4. Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+#### 5. Open the Notebook
+
+Navigate to the `notebook` folder and open:
+
+```text
+Customer_Churn_Prediction.ipynb
+```
+
+Run all cells sequentially from top to bottom to reproduce the complete analysis, visualizations, model training, evaluation, and saved artifacts.
+
+---
+
+#### Results
+
+* Successfully developed an end-to-end customer churn prediction pipeline.
+* Evaluated seven supervised machine learning classification models.
+* Compared models using Accuracy, Precision, Recall, and F1-Score.
+* Performed hyperparameter tuning using GridSearchCV.
+* Identified the most influential features contributing to customer churn.
+* Saved the trained Logistic Regression model and StandardScaler for future inference.
+
+---
+
+#### Future Enhancements
+
+* Apply feature selection techniques to reduce model complexity.
+* Investigate class imbalance methods such as SMOTE.
+* Explore ensemble and stacking techniques.
+* Perform advanced hyperparameter optimization.
+* Deploy the trained model using Flask, FastAPI, or Streamlit.
+* Build an interactive dashboard for real-time churn prediction and business insights.
+
+---
+
+#### Author
+
+**Pratap N**
+
+Data Science | Machine Learning | Deep Learning Enthusiast
+
+If you found this project interesting, consider giving the repository a ⭐ on GitHub.
